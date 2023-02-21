@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+height: 20vh;
+}
+
+.colornav{
+    background-color: brown !important;
+}
+
+.logopagina{
+    display: flex;
+}
+
+main{
+    height: 70vh;
+    background-image: url(../images/fondo_header.png) !important;
+}
+
+li{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: brown;
+}
+
+a:link{
+    text-decoration: none;
+    color: brown;
+}
+a:visited {
+    text-decoration: none;
+    }
+ .navform{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: brown;
+ }
+.colormain{
+    background-color: rgb(196, 157, 107) !important;
+}
+
+footer{
+    background-color: rgb(196, 157, 107) !important;
+    height: 10vh;
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
